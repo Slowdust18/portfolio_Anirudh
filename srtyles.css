@@ -110,9 +110,15 @@
     margin-bottom: 10px;
 }
 
+.hackathon-text h3{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
 .hackathon-text h5 {
     font-size: 22px;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .hackathon-text p {
@@ -162,4 +168,129 @@
     box-shadow: 0 0 5px #f30a0a, 0 0 25px #f30a0a;
     cursor: pointer;
     transform: scale(1.1);
+}
+
+
+
+.internships {
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #191919;
+    text-align: center;
+}
+
+/* Title styling */
+.internship-title {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Flex container for internship cards */
+.internship-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual internship card */
+.internship-card {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(243, 10, 10, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.internship-card:hover {
+    transform: scale(1.05);
+}
+
+/* Internship headings */
+.internship-card h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #f30a0a;
+}
+
+.internship-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff6666;
+}
+
+/* Internship description */
+.internship-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.projects {
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #191919;
+    text-align: center;
+}
+
+/* Title styling */
+.project-title {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Flex container for project cards */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Individual project card */
+.project-card {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(243, 10, 10, 0.5);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Image styling */
+.project-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #f30a0a;
+}
+
+/* Project title */
+.project-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f30a0a;
+}
+
+/* Project description */
+.project-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
 }
